@@ -1,0 +1,2 @@
+# Reusable fork-local app; preserved by upstream system updates.
+local/discovery/

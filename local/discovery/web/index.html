@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="color-scheme" content="light">
+  <title>Internship desk · Career-ops</title>
+  <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="/style.css">
+  <script type="module" src="/app.js"></script>
+</head>
+<body>
+  <a class="skip" href="#results">Skip to internships</a>
+  <header class="topbar">
+    <a class="wordmark" href="/" aria-label="Internship desk home"><svg viewBox="0 0 28 28" fill="none" aria-hidden="true"><path d="M5 7h18v15H5zM10 7V4h8v3M5 12h18M11 12v4h6v-4" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/></svg><span>career-ops <span class="wordmark-sub">/ internship desk</span></span></a>
+    <span class="local-indicator"><span></span>Local · Discovery only</span>
+  </header>
+  <main>
+    <section class="heading-row" aria-labelledby="page-title">
+      <div><h1 id="page-title">Your next internship.</h1><p>Java &amp; Spring Boot and cloud &amp; DevOps internships in Metro Manila.</p></div>
+      <div class="refresh-actions"><button id="refresh" class="primary" disabled><svg class="refresh-icon" viewBox="0 0 20 20" fill="none" aria-hidden="true"><path d="M16.5 8A6.7 6.7 0 1 0 16 14M16.5 3v5h-5" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Refresh listings</span></button><span id="updated" class="updated">Loading saved results…</span></div>
+    </section>
+    <div class="search-context"><span>Metro Manila · Any work arrangement</span><span id="hours-context">486 school hours · Confirm with HR</span><span id="start-context">Start now – January 2027</span></div>
+    <div id="notice" class="notice" role="status" aria-live="polite" hidden></div>
+    <section id="refresh-panel" class="refresh-panel" aria-label="Search progress" hidden><div><strong id="refresh-message"></strong><p>Browse your saved results while the search runs. Keep the local server running.</p></div><div class="source-progress"><span id="native-progress">Company sources: waiting</span><span id="jobspy-progress">JobSpy: waiting</span><span id="jobstreet-progress">JobStreet: waiting</span></div></section>
+    <div class="overview" id="overview" aria-label="Discovery summary"></div>
+    <section class="workspace" aria-label="Internship browser">
+      <div class="toolbar">
+        <div class="track-tabs" role="group" aria-label="Filter by career track"><button data-track="all" aria-pressed="true">All tracks <span></span></button><button data-track="java_backend" aria-pressed="false">Java / Backend <span></span></button><button data-track="cloud_devops" aria-pressed="false">Cloud / DevOps <span></span></button><button data-track="ai_ml" aria-pressed="false">AI / ML <span></span></button></div>
+        <a class="export-link" href="/api/export" download>Export CSV <svg viewBox="0 0 20 20" fill="none" aria-hidden="true"><path d="M10 3v9m-3-3 3 3 3-3M4 12v4h12v-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg></a>
+      </div>
+      <div class="filters">
+        <label class="search-field"><svg viewBox="0 0 20 20" fill="none" aria-hidden="true"><circle cx="8.5" cy="8.5" r="5.5" stroke="currentColor" stroke-width="1.5"/><path d="m13 13 4 4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg><input id="search" type="search" placeholder="Search roles, companies, skills…" aria-label="Search roles, companies and skills"></label>
+        <label class="select-field"><span>Show</span><select id="view"><option value="ranked">Ranked leads</option><option value="review">Needs review</option><option value="all">All records</option><option value="excluded">Excluded</option></select></label>
+        <label class="select-field"><span>Source</span><select id="source"><option value="all">All sources</option><option value="native">Company sources</option><option value="jobstreet:api">JobStreet</option><option value="jobspy:indeed">Indeed</option><option value="jobspy:linkedin">LinkedIn</option></select></label>
+        <label class="select-field"><span>Sort</span><select id="sort"><option value="recent">Newest posted</option><option value="score">Best fit</option><option value="company">Company A–Z</option></select></label>
+        <label class="check"><input id="spring" type="checkbox">Spring Boot mentioned</label>
+      </div>
+      <div class="browser-grid">
+        <section id="results" class="results" aria-label="Internship results" tabindex="-1"><div class="list-heading"><strong id="result-count" aria-live="polite">Loading internships…</strong><button id="clear" class="text-button" hidden>Clear filters</button></div><div id="job-list" class="job-list"><div class="loading-placeholder" aria-hidden="true"></div><div class="loading-placeholder" aria-hidden="true"></div><div class="loading-placeholder" aria-hidden="true"></div></div></section>
+        <article id="detail" class="detail" aria-label="Selected internship" tabindex="-1"><p class="empty-detail">Your selected internship will appear here.</p></article>
+      </div>
+    </section>
+    <details id="source-diagnostics" class="diagnostics"><summary>Search coverage &amp; source health <span id="source-summary"></span></summary><div id="diagnostics-content"></div></details>
+    <footer><span>Career-ops + JobSpy · One local discovery workspace</span><span>Open a listing and apply yourself when you’re ready.</span></footer>
+  </main>
+  <noscript>This dashboard needs JavaScript enabled to read your local discovery results.</noscript>
+</body>
+</html>

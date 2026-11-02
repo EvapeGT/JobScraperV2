@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "jobspy": {
+    "project": "../experiments/jobspy",
+    "python": "../experiments/jobspy/.venv/Scripts/python.exe",
+    "timeout_ms": 1800000,
+    "results_wanted": 100,
+    "linkedin_results_wanted": 50
+  },
+  "jobstreet": { "enabled": true, "timeout_ms": 600000, "max_pages": 10, "detail_budget": 100 },
+  "sort_order": "newest",
+  "focus_families": ["java_backend", "cloud_devops"],
+  "native_timeout_ms": 720000,
+  "role_weights": {"java_backend": 1.0, "cloud_devops": 0.9, "ai_ml": 0.8},
+  "minimum_role_score": 35,
+  "company_aliases": {
+    "trendai": "trend micro",
+    "trend micro": "trend micro",
+    "globe telecom": "globe telecom",
+    "healthspan global": "healthspan global",
+    "trend micro philippine branch": "trend micro",
+    "amdocs philippines": "amdocs",
+    "amadeus it group": "amadeus",
+    "amadeus marketing phils": "amadeus"
+  },
+  "area_aliases": ["Metro Manila", "National Capital Region", "Manila", "Makati", "Taguig", "BGC", "Bonifacio Global City", "Pasig", "Ortigas", "Mandaluyong", "Quezon City", "Pasay", "Muntinlupa", "Alabang", "Paranaque", "Parañaque", "Las Pinas", "Las Piñas", "San Juan", "Marikina", "Caloocan", "Malabon", "Navotas", "Valenzuela", "Pateros", "The Globe Tower", "Guadalupe Viejo", "Fort Bonifacio"],
+  "body_similarity_threshold": 0.82,
+  "discovery_only": true,
+  "auto_apply": false,
+  "auto_outreach": false
+}

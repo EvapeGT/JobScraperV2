@@ -1,0 +1,513 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-10-28T19:39:09.052Z",
+  "title": "Design System: Career-ops Internship Desk",
+  "extensions": {
+    "colorMeta": {
+      "bg": {
+        "role": "neutral",
+        "displayName": "Warm page",
+        "tonalRamp": [
+          "oklch(0.1500 0.0041 91.45)",
+          "oklch(0.2643 0.0041 91.45)",
+          "oklch(0.3786 0.0041 91.45)",
+          "oklch(0.4929 0.0041 91.45)",
+          "oklch(0.6071 0.0041 91.45)",
+          "oklch(0.7214 0.0041 91.45)",
+          "oklch(0.8357 0.0041 91.45)",
+          "oklch(0.9500 0.0041 91.45)"
+        ]
+      },
+      "surface": {
+        "role": "neutral",
+        "displayName": "White surface",
+        "tonalRamp": [
+          "oklch(0.1500 0.0000 89.88)",
+          "oklch(0.2643 0.0000 89.88)",
+          "oklch(0.3786 0.0000 89.88)",
+          "oklch(0.4929 0.0000 89.88)",
+          "oklch(0.6071 0.0000 89.88)",
+          "oklch(0.7214 0.0000 89.88)",
+          "oklch(0.8357 0.0000 89.88)",
+          "oklch(0.9500 0.0000 89.88)"
+        ]
+      },
+      "hover": {
+        "role": "neutral",
+        "displayName": "Quiet hover",
+        "tonalRamp": [
+          "oklch(0.1500 0.0054 95.10)",
+          "oklch(0.2643 0.0054 95.10)",
+          "oklch(0.3786 0.0054 95.10)",
+          "oklch(0.4929 0.0054 95.10)",
+          "oklch(0.6071 0.0054 95.10)",
+          "oklch(0.7214 0.0054 95.10)",
+          "oklch(0.8357 0.0054 95.10)",
+          "oklch(0.9500 0.0054 95.10)"
+        ]
+      },
+      "line": {
+        "role": "neutral",
+        "displayName": "Warm divider",
+        "tonalRamp": [
+          "oklch(0.1500 0.0100 87.48)",
+          "oklch(0.2643 0.0100 87.48)",
+          "oklch(0.3786 0.0100 87.48)",
+          "oklch(0.4929 0.0100 87.48)",
+          "oklch(0.6071 0.0100 87.48)",
+          "oklch(0.7214 0.0100 87.48)",
+          "oklch(0.8357 0.0100 87.48)",
+          "oklch(0.9500 0.0100 87.48)"
+        ]
+      },
+      "ink": {
+        "role": "neutral",
+        "displayName": "Near-black ink",
+        "tonalRamp": [
+          "oklch(0.1500 0.0074 67.45)",
+          "oklch(0.2643 0.0074 67.45)",
+          "oklch(0.3786 0.0074 67.45)",
+          "oklch(0.4929 0.0074 67.45)",
+          "oklch(0.6071 0.0074 67.45)",
+          "oklch(0.7214 0.0074 67.45)",
+          "oklch(0.8357 0.0074 67.45)",
+          "oklch(0.9500 0.0074 67.45)"
+        ]
+      },
+      "muted": {
+        "role": "neutral",
+        "displayName": "Warm gray",
+        "tonalRamp": [
+          "oklch(0.1500 0.0161 78.16)",
+          "oklch(0.2643 0.0161 78.16)",
+          "oklch(0.3786 0.0161 78.16)",
+          "oklch(0.4929 0.0161 78.16)",
+          "oklch(0.6071 0.0161 78.16)",
+          "oklch(0.7214 0.0161 78.16)",
+          "oklch(0.8357 0.0161 78.16)",
+          "oklch(0.9500 0.0161 78.16)"
+        ]
+      },
+      "brand": {
+        "role": "primary",
+        "displayName": "Brand orange",
+        "tonalRamp": [
+          "oklch(0.1500 0.1545 52.83)",
+          "oklch(0.2643 0.1545 52.83)",
+          "oklch(0.3786 0.1545 52.83)",
+          "oklch(0.4929 0.1545 52.83)",
+          "oklch(0.6071 0.1545 52.83)",
+          "oklch(0.7214 0.1545 52.83)",
+          "oklch(0.8357 0.1545 52.83)",
+          "oklch(0.9500 0.1545 52.83)"
+        ]
+      },
+      "brand-hover": {
+        "role": "primary",
+        "displayName": "Light orange",
+        "tonalRamp": [
+          "oklch(0.1500 0.1609 63.58)",
+          "oklch(0.2643 0.1609 63.58)",
+          "oklch(0.3786 0.1609 63.58)",
+          "oklch(0.4929 0.1609 63.58)",
+          "oklch(0.6071 0.1609 63.58)",
+          "oklch(0.7214 0.1609 63.58)",
+          "oklch(0.8357 0.1609 63.58)",
+          "oklch(0.9500 0.1609 63.58)"
+        ]
+      },
+      "brand-ink": {
+        "role": "primary",
+        "displayName": "Dark action ink",
+        "tonalRamp": [
+          "oklch(0.1500 0.0230 51.53)",
+          "oklch(0.2643 0.0230 51.53)",
+          "oklch(0.3786 0.0230 51.53)",
+          "oklch(0.4929 0.0230 51.53)",
+          "oklch(0.6071 0.0230 51.53)",
+          "oklch(0.7214 0.0230 51.53)",
+          "oklch(0.8357 0.0230 51.53)",
+          "oklch(0.9500 0.0230 51.53)"
+        ]
+      },
+      "accent": {
+        "role": "primary",
+        "displayName": "Deep orange",
+        "tonalRamp": [
+          "oklch(0.1500 0.1321 49.88)",
+          "oklch(0.2643 0.1321 49.88)",
+          "oklch(0.3786 0.1321 49.88)",
+          "oklch(0.4929 0.1321 49.88)",
+          "oklch(0.6071 0.1321 49.88)",
+          "oklch(0.7214 0.1321 49.88)",
+          "oklch(0.8357 0.1321 49.88)",
+          "oklch(0.9500 0.1321 49.88)"
+        ]
+      },
+      "selected": {
+        "role": "primary",
+        "displayName": "Pale orange",
+        "tonalRamp": [
+          "oklch(0.1500 0.0171 67.62)",
+          "oklch(0.2643 0.0171 67.62)",
+          "oklch(0.3786 0.0171 67.62)",
+          "oklch(0.4929 0.0171 67.62)",
+          "oklch(0.6071 0.0171 67.62)",
+          "oklch(0.7214 0.0171 67.62)",
+          "oklch(0.8357 0.0171 67.62)",
+          "oklch(0.9500 0.0171 67.62)"
+        ]
+      },
+      "success": {
+        "role": "status",
+        "displayName": "Forest green",
+        "tonalRamp": [
+          "oklch(0.1500 0.0677 161.07)",
+          "oklch(0.2643 0.0677 161.07)",
+          "oklch(0.3786 0.0677 161.07)",
+          "oklch(0.4929 0.0677 161.07)",
+          "oklch(0.6071 0.0677 161.07)",
+          "oklch(0.7214 0.0677 161.07)",
+          "oklch(0.8357 0.0677 161.07)",
+          "oklch(0.9500 0.0677 161.07)"
+        ]
+      },
+      "warning": {
+        "role": "status",
+        "displayName": "Amber brown",
+        "tonalRamp": [
+          "oklch(0.1500 0.0944 75.46)",
+          "oklch(0.2643 0.0944 75.46)",
+          "oklch(0.3786 0.0944 75.46)",
+          "oklch(0.4929 0.0944 75.46)",
+          "oklch(0.6071 0.0944 75.46)",
+          "oklch(0.7214 0.0944 75.46)",
+          "oklch(0.8357 0.0944 75.46)",
+          "oklch(0.9500 0.0944 75.46)"
+        ]
+      },
+      "warning-bg": {
+        "role": "status",
+        "displayName": "Warning wash",
+        "tonalRamp": [
+          "oklch(0.1500 0.0183 86.15)",
+          "oklch(0.2643 0.0183 86.15)",
+          "oklch(0.3786 0.0183 86.15)",
+          "oklch(0.4929 0.0183 86.15)",
+          "oklch(0.6071 0.0183 86.15)",
+          "oklch(0.7214 0.0183 86.15)",
+          "oklch(0.8357 0.0183 86.15)",
+          "oklch(0.9500 0.0183 86.15)"
+        ]
+      },
+      "danger": {
+        "role": "status",
+        "displayName": "Brick red",
+        "tonalRamp": [
+          "oklch(0.1500 0.1216 30.59)",
+          "oklch(0.2643 0.1216 30.59)",
+          "oklch(0.3786 0.1216 30.59)",
+          "oklch(0.4929 0.1216 30.59)",
+          "oklch(0.6071 0.1216 30.59)",
+          "oklch(0.7214 0.1216 30.59)",
+          "oklch(0.8357 0.1216 30.59)",
+          "oklch(0.9500 0.1216 30.59)"
+        ]
+      },
+      "filter-bg": {
+        "role": "neutral",
+        "displayName": "Filter wash",
+        "tonalRamp": [
+          "oklch(0.1500 0.0029 84.56)",
+          "oklch(0.2643 0.0029 84.56)",
+          "oklch(0.3786 0.0029 84.56)",
+          "oklch(0.4929 0.0029 84.56)",
+          "oklch(0.6071 0.0029 84.56)",
+          "oklch(0.7214 0.0029 84.56)",
+          "oklch(0.8357 0.0029 84.56)",
+          "oklch(0.9500 0.0029 84.56)"
+        ]
+      },
+      "row-hover": {
+        "role": "neutral",
+        "displayName": "Row hover wash",
+        "tonalRamp": [
+          "oklch(0.1500 0.0041 91.45)",
+          "oklch(0.2643 0.0041 91.45)",
+          "oklch(0.3786 0.0041 91.45)",
+          "oklch(0.4929 0.0041 91.45)",
+          "oklch(0.6071 0.0041 91.45)",
+          "oklch(0.7214 0.0041 91.45)",
+          "oklch(0.8357 0.0041 91.45)",
+          "oklch(0.9500 0.0041 91.45)"
+        ]
+      },
+      "warning-line": {
+        "role": "status",
+        "displayName": "Warning border",
+        "tonalRamp": [
+          "oklch(0.1500 0.0614 88.39)",
+          "oklch(0.2643 0.0614 88.39)",
+          "oklch(0.3786 0.0614 88.39)",
+          "oklch(0.4929 0.0614 88.39)",
+          "oklch(0.6071 0.0614 88.39)",
+          "oklch(0.7214 0.0614 88.39)",
+          "oklch(0.8357 0.0614 88.39)",
+          "oklch(0.9500 0.0614 88.39)"
+        ]
+      },
+      "success-line": {
+        "role": "status",
+        "displayName": "Success border",
+        "tonalRamp": [
+          "oklch(0.1500 0.0280 157.27)",
+          "oklch(0.2643 0.0280 157.27)",
+          "oklch(0.3786 0.0280 157.27)",
+          "oklch(0.4929 0.0280 157.27)",
+          "oklch(0.6071 0.0280 157.27)",
+          "oklch(0.7214 0.0280 157.27)",
+          "oklch(0.8357 0.0280 157.27)",
+          "oklch(0.9500 0.0280 157.27)"
+        ]
+      },
+      "positive-bg": {
+        "role": "status",
+        "displayName": "Positive tag wash",
+        "tonalRamp": [
+          "oklch(0.1500 0.0082 157.09)",
+          "oklch(0.2643 0.0082 157.09)",
+          "oklch(0.3786 0.0082 157.09)",
+          "oklch(0.4929 0.0082 157.09)",
+          "oklch(0.6071 0.0082 157.09)",
+          "oklch(0.7214 0.0082 157.09)",
+          "oklch(0.8357 0.0082 157.09)",
+          "oklch(0.9500 0.0082 157.09)"
+        ]
+      },
+      "success-bg": {
+        "role": "status",
+        "displayName": "Success notice wash",
+        "tonalRamp": [
+          "oklch(0.1500 0.0099 155.10)",
+          "oklch(0.2643 0.0099 155.10)",
+          "oklch(0.3786 0.0099 155.10)",
+          "oklch(0.4929 0.0099 155.10)",
+          "oklch(0.6071 0.0099 155.10)",
+          "oklch(0.7214 0.0099 155.10)",
+          "oklch(0.8357 0.0099 155.10)",
+          "oklch(0.9500 0.0099 155.10)"
+        ]
+      },
+      "error-bg": {
+        "role": "status",
+        "displayName": "Error wash",
+        "tonalRamp": [
+          "oklch(0.1500 0.0136 34.30)",
+          "oklch(0.2643 0.0136 34.30)",
+          "oklch(0.3786 0.0136 34.30)",
+          "oklch(0.4929 0.0136 34.30)",
+          "oklch(0.6071 0.0136 34.30)",
+          "oklch(0.7214 0.0136 34.30)",
+          "oklch(0.8357 0.0136 34.30)",
+          "oklch(0.9500 0.0136 34.30)"
+        ]
+      },
+      "error-line": {
+        "role": "status",
+        "displayName": "Error border",
+        "tonalRamp": [
+          "oklch(0.1500 0.0463 31.58)",
+          "oklch(0.2643 0.0463 31.58)",
+          "oklch(0.3786 0.0463 31.58)",
+          "oklch(0.4929 0.0463 31.58)",
+          "oklch(0.6071 0.0463 31.58)",
+          "oklch(0.7214 0.0463 31.58)",
+          "oklch(0.8357 0.0463 31.58)",
+          "oklch(0.9500 0.0463 31.58)"
+        ]
+      }
+    },
+    "typographyMeta": {
+      "headline": {
+        "displayName": "Page headline",
+        "purpose": "Page title; 27px at the mobile breakpoint."
+      },
+      "title": {
+        "displayName": "Selected role title",
+        "purpose": "Selected internship heading; 23px at the mobile breakpoint."
+      },
+      "row-title": {
+        "displayName": "Result title",
+        "purpose": "Semibold wrapping title within each result row."
+      },
+      "body": {
+        "displayName": "Base body",
+        "purpose": "14px root type and primary controls; paragraph line-height is 1.6."
+      },
+      "description": {
+        "displayName": "Role description",
+        "purpose": "13px source description with preserved line breaks and a 72ch measure."
+      },
+      "label": {
+        "displayName": "Metadata and labels",
+        "purpose": "12px minimum explicit metadata, including source timestamps."
+      }
+    },
+    "shadows": [],
+    "motion": [
+      {
+        "name": "color-transition",
+        "value": "background-color 160ms ease, color 160ms ease",
+        "purpose": "Button and link state transitions without movement."
+      },
+      {
+        "name": "refresh-rotation",
+        "value": "rotate 1.4s linear infinite",
+        "purpose": "Refresh icon only while a run is active."
+      },
+      {
+        "name": "reduced-motion",
+        "value": "@media (prefers-reduced-motion: reduce)",
+        "purpose": "Disable all animation and transition; set scroll-behavior:auto."
+      }
+    ],
+    "breakpoints": [
+      {
+        "name": "wide-min",
+        "value": "1500px"
+      },
+      {
+        "name": "compact-max",
+        "value": "1150px"
+      },
+      {
+        "name": "mobile-max",
+        "value": "760px"
+      }
+    ]
+  },
+  "components": [
+    {
+      "name": "Primary action",
+      "kind": "button",
+      "refersTo": "button-primary",
+      "description": "Refresh listings or open the original listing; dark type on the inherited orange.",
+      "html": "<button class=\"ds-primary\"><svg viewBox=\"0 0 20 20\" fill=\"none\" aria-hidden=\"true\"><path d=\"M16.5 8A6.7 6.7 0 1 0 16 14M16.5 3v5h-5\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></svg>Refresh listings</button>",
+      "css": ".ds-primary{font-family:\"Segoe UI\",system-ui,-apple-system,sans-serif;font-size:14px;font-weight:650;background:var(--brand,#dd7627);color:var(--brand-ink,#281c15);padding:12px 18px;border:0;border-radius:var(--radius,8px);display:inline-flex;align-items:center;justify-content:center;gap:8px;cursor:pointer;white-space:nowrap;transition:background-color 160ms ease,color 160ms ease;}.ds-primary svg{width:20px;height:20px;flex-shrink:0}.ds-primary:hover:not(:disabled){background:var(--brand-hover,#ff9f33)}.ds-primary:focus-visible{outline:2px solid var(--accent,#a65012);outline-offset:3px;}.ds-primary:disabled{cursor:wait;opacity:.65}.ds-primary.ds-refreshing svg{animation:ds-rotate 1.4s linear infinite}@keyframes ds-rotate{to{transform:rotate(360deg)}}@media(prefers-reduced-motion:reduce){.ds-primary{transition:none}.ds-primary.ds-refreshing svg{animation:none}}"
+    },
+    {
+      "name": "Text action",
+      "kind": "button",
+      "refersTo": "button-text",
+      "description": "Compact underlined action for clearing filters.",
+      "html": "<button class=\"ds-text\">Clear filters</button>",
+      "css": ".ds-text{font-family:\"Segoe UI\",system-ui,-apple-system,sans-serif;font-size:12px;background:transparent;border:0;color:var(--accent,#a65012);padding:4px 0;text-decoration:underline;text-underline-offset:3px;cursor:pointer;transition:background-color 160ms ease,color 160ms ease;}.ds-text:focus-visible{outline:2px solid var(--accent,#a65012);outline-offset:3px;}@media(prefers-reduced-motion:reduce){.ds-text{transition:none}}"
+    },
+    {
+      "name": "Search field",
+      "kind": "input",
+      "refersTo": "input-search",
+      "description": "Labeled search with a familiar icon and focus on the field container.",
+      "html": "<label class=\"ds-search\"><svg viewBox=\"0 0 20 20\" fill=\"none\" aria-hidden=\"true\"><circle cx=\"8.5\" cy=\"8.5\" r=\"5.5\" stroke=\"currentColor\" stroke-width=\"1.5\"/><path d=\"m13 13 4 4\" stroke=\"currentColor\" stroke-width=\"1.5\" stroke-linecap=\"round\"/></svg><input type=\"search\" aria-label=\"Search roles, companies and skills\" placeholder=\"Search roles, companies, skills…\"></label>",
+      "css": ".ds-search{font-family:\"Segoe UI\",system-ui,-apple-system,sans-serif;display:flex;align-items:center;gap:8px;border:1px solid var(--line,#dedbd4);border-radius:6px;background:var(--surface,#fff);padding:9px 10px;min-width:190px;color:var(--muted,#625c53)}.ds-search svg{width:20px;height:20px;flex-shrink:0}.ds-search input{font-family:\"Segoe UI\",system-ui,-apple-system,sans-serif;font-size:13px;width:100%;min-width:0;border:0;outline:0;background:transparent;color:var(--ink,#1f1c19);caret-color:var(--accent,#a65012)}.ds-search input::placeholder{color:var(--muted,#625c53)}.ds-search:focus-within{outline:2px solid var(--accent,#a65012);outline-offset:1px}.ds-search input:focus-visible{outline:0}"
+    },
+    {
+      "name": "Native select",
+      "kind": "input",
+      "refersTo": "select",
+      "description": "Visible label and native select for view, source or sort.",
+      "html": "<label class=\"ds-select\"><span>Show</span><select><option>Ranked leads</option><option>Needs review</option><option>All records</option><option>Excluded</option></select></label>",
+      "css": ".ds-select{font-family:\"Segoe UI\",system-ui,-apple-system,sans-serif;display:flex;align-items:center;gap:6px;font-size:12px;color:var(--muted,#625c53)}.ds-select select{font-family:\"Segoe UI\",system-ui,-apple-system,sans-serif;min-height:38px;border:1px solid var(--line,#dedbd4);border-radius:6px;background:var(--surface,#fff);color:var(--ink,#1f1c19);padding:7px;max-width:180px;font-size:12px}.ds-select select:focus-visible{outline:2px solid var(--accent,#a65012);outline-offset:3px;}"
+    },
+    {
+      "name": "Track navigation",
+      "kind": "nav",
+      "refersTo": "track-tab",
+      "description": "Pressed track uses deep orange text and a bottom rule; counts follow the other active filters.",
+      "html": "<div class=\"ds-tracks\" role=\"group\" aria-label=\"Filter by career track\"><button aria-pressed=\"true\">All tracks <span>32</span></button><button aria-pressed=\"false\">Java / Backend <span>20</span></button></div>",
+      "css": ".ds-tracks{font-family:\"Segoe UI\",system-ui,-apple-system,sans-serif;display:flex;gap:24px;flex-wrap:wrap}.ds-tracks button{font-family:\"Segoe UI\",system-ui,-apple-system,sans-serif;font-size:14px;min-height:59px;padding:10px 0;border:0;border-bottom:2px solid transparent;background:transparent;color:var(--muted,#625c53);font-weight:550;white-space:nowrap;cursor:pointer;transition:background-color 160ms ease,color 160ms ease;}.ds-tracks button:hover{color:var(--ink,#1f1c19)}.ds-tracks button[aria-pressed=true]{border-bottom-color:var(--accent,#a65012);color:var(--accent,#a65012)}.ds-tracks button:focus-visible{outline:2px solid var(--accent,#a65012);outline-offset:3px;}.ds-tracks span{font-size:12px;display:inline-block;font-variant-numeric:tabular-nums;margin-left:4px;font-weight:400}@media(max-width:760px){.ds-tracks{gap:20px;overflow-x:auto;flex-wrap:nowrap}.ds-tracks button{min-height:52px;font-size:12px}}@media(prefers-reduced-motion:reduce){.ds-tracks button{transition:none}}"
+    },
+    {
+      "name": "Neutral evidence tag",
+      "kind": "chip",
+      "refersTo": "tag",
+      "description": "Noninteractive track or source-count label.",
+      "html": "<span class=\"ds-tag\">Java / Backend</span>",
+      "css": ".ds-tag{font-family:\"Segoe UI\",system-ui,-apple-system,sans-serif;display:inline-flex;align-items:center;border:1px solid var(--line,#dedbd4);padding:3px 7px;border-radius:4px;font-size:12px;color:var(--muted,#625c53);line-height:1.5}"
+    },
+    {
+      "name": "Review evidence tag",
+      "kind": "chip",
+      "refersTo": "tag-review",
+      "description": "Explicit uncertainty, exclusion or possible-duplicate label.",
+      "html": "<span class=\"ds-tag-review\">Needs review</span>",
+      "css": ".ds-tag-review{font-family:\"Segoe UI\",system-ui,-apple-system,sans-serif;display:inline-flex;align-items:center;border:1px solid #decca0;padding:3px 7px;border-radius:4px;font-size:12px;color:var(--warning,#79520b);background:var(--warning-bg,#fbf5e8);line-height:1.5}"
+    },
+    {
+      "name": "Positive evidence tag",
+      "kind": "chip",
+      "refersTo": "tag-positive",
+      "description": "Explicit Spring Boot mention; a positive observed signal.",
+      "html": "<span class=\"ds-tag-positive\">Spring Boot</span>",
+      "css": ".ds-tag-positive{font-family:\"Segoe UI\",system-ui,-apple-system,sans-serif;display:inline-flex;align-items:center;border:1px solid #bdd1c4;padding:3px 7px;border-radius:4px;font-size:12px;color:var(--success,#2f6149);background:#f1f7f3;line-height:1.5}"
+    },
+    {
+      "name": "Selected result row",
+      "kind": "custom",
+      "refersTo": "job-row",
+      "description": "Full-row selection target; title, employer and score remain distinct.",
+      "html": "<button class=\"ds-row\" aria-current=\"true\" aria-label=\"Backend Developer Intern at ELI IT SOLUTIONS, fit score 97 of 100\"><span class=\"ds-row-top\"><span class=\"ds-company\">ELI IT SOLUTIONS</span><span class=\"ds-score\">97 <small>/ 100</small></span></span><span class=\"ds-row-title\">Backend Developer Intern</span><span class=\"ds-location\">Valenzuela, P00, Philippines</span><span class=\"ds-row-meta\"><span class=\"ds-row-tag\">Java / Backend</span></span></button>",
+      "css": ".ds-row{font-family:\"Segoe UI\",system-ui,-apple-system,sans-serif;display:block;text-align:left;width:100%;padding:19px 20px;border:0;border-bottom:1px solid var(--line,#dedbd4);position:relative;background:var(--surface,#fff);color:var(--ink,#1f1c19);cursor:pointer;transition:background-color 160ms ease,color 160ms ease;}.ds-row:hover{background:#faf9f6}.ds-row[aria-current=true]{background:var(--selected,#fbf1e7)}.ds-row[aria-current=true] .ds-row-title{color:var(--accent,#a65012)}.ds-row:focus-visible{outline:2px solid var(--accent,#a65012);outline-offset:3px;}.ds-row-top{display:flex;justify-content:space-between;gap:16px;align-items:baseline}.ds-company{font-size:12px;font-weight:550;overflow-wrap:anywhere;color:var(--muted,#625c53)}.ds-score{font-size:14px;font-weight:650;font-variant-numeric:tabular-nums;flex-shrink:0}.ds-score small{font-size:12px;font-weight:400;color:var(--muted,#625c53)}.ds-row-title{display:block;font-weight:650;font-size:15px;line-height:1.45;margin:7px 0 6px;overflow-wrap:anywhere}.ds-location{color:var(--muted,#625c53);font-size:12px;line-height:1.5}.ds-row-meta{display:flex;gap:6px;flex-wrap:wrap;margin-top:12px}.ds-row-tag{display:inline-flex;align-items:center;border:1px solid var(--line,#dedbd4);padding:3px 7px;border-radius:4px;font-size:12px;color:var(--muted,#625c53);line-height:1.5}@media(max-width:760px){.ds-row{padding:18px}}@media(prefers-reduced-motion:reduce){.ds-row{transition:none}}"
+    },
+    {
+      "name": "Review panel",
+      "kind": "card",
+      "refersTo": "review-section",
+      "description": "Grouped questions to confirm, using source-backed uncertainty and an amber wash.",
+      "html": "<section class=\"ds-review\"><h3>Confirm before applying</h3><ul><li>Confirm support for 486 school hours and MOA</li><li>Start date needs confirmation</li></ul></section>",
+      "css": ".ds-review{font-family:\"Segoe UI\",system-ui,-apple-system,sans-serif;background:var(--warning-bg,#fbf5e8);padding:17px 18px;border-radius:8px;color:var(--warning,#79520b)}.ds-review h3{margin:0 0 11px;font-size:15px;font-weight:650}.ds-review ul{padding-left:18px;margin:0;font-size:13px;line-height:1.65}.ds-review li+li{margin-top:6px}"
+    }
+  ],
+  "narrative": {
+    "northStar": "The familiar internship desk",
+    "overview": "A quiet local workspace for scanning roles, inspecting their evidence and returning to the list. Warm neutral surroundings, white working surfaces and restrained orange actions carry the existing Career-ops visual vocabulary into familiar browser controls. Precision and readable density supply the character.\n\nThis document applies only to `career-ops/local/discovery/web`. The visual authority is the implemented `index.html`, `style.css` and `app.js`, checked against the desktop and mobile review captures. It inherits the warm background, white surfaces, orange action family and dark action text from [the upstream Career-ops stylesheet](../../../web/src/app/globals.css). Local literals are the source of truth for this surface; they do not redefine the upstream system. The local system uses Windows system UI type and a light theme. It does not import the upstream marketing serif, olive landing treatment, dark theme or decorative animation.",
+    "keyCharacteristics": [
+      "Flat, bounded working surfaces with thin warm dividers.",
+      "Strong role titles, tabular scores and quiet supporting evidence.",
+      "Orange for primary actions, current selection and keyboard focus.",
+      "Explicit text for source state, uncertainty and incomplete data.",
+      "A simultaneous desktop list/detail view and a mobile list-to-detail path."
+    ],
+    "rules": [
+      {
+        "name": "The Action Ink Rule",
+        "body": "Keep the dark foreground on orange primary actions; use the deep orange accent for small action text.",
+        "section": "colors"
+      },
+      {
+        "name": "The Evidence Rule",
+        "body": "Status color accompanies a readable label or message. Green is an observed positive signal; amber retains an unresolved question.",
+        "section": "colors"
+      },
+      {
+        "name": "The Reading Floor Rule",
+        "body": "Preserve the implemented 12px metadata floor. Do not allow browser-default `small` sizing to shrink source timestamps below it.",
+        "section": "typography"
+      }
+    ],
+    "dos": [
+      "**Do** preserve the inherited warm neutral/orange vocabulary and the local surface's system UI type.",
+      "**Do** keep titles, scores, source evidence and unresolved requirements easy to distinguish.",
+      "**Do** retain the 12px metadata floor, wrapping long content and visible keyboard focus.",
+      "**Do** preserve list/detail behavior and the mobile back path when adding related states.",
+      "**Do** show partial source failure while keeping saved results readable."
+    ],
+    "donts": [
+      "**Don't** redefine the upstream Career-ops system from this isolated local document.",
+      "**Don't** add a marketing identity, decorative typography, shadows or unrelated animation to this task workspace.",
+      "**Don't** use color alone to imply verification or turn a fit score into a hiring probability.",
+      "**Don't** erase excluded records, missing evidence or uncertainty to make the result list look cleaner.",
+      "**Don't** add application submission, outreach, resume upload or scheduling controls to the discovery interface."
+    ]
+  }
+}

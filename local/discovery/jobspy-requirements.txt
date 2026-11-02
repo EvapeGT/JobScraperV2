@@ -1,0 +1,3 @@
+# Reviewed collector source, pinned to the revision used by this integration.
+python-jobspy @ git+https://github.com/speedyapply/JobSpy.git@68b88d6909a2342ad75fbb945c4204a3a7ed6665
+tzdata==2026.6
